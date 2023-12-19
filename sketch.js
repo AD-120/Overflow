@@ -71,7 +71,7 @@ function drawTime(index, PersonDate) {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  digitSize = 44;
+  digitSize = windowWidth/20  ;
 }
 
 function draw() {
