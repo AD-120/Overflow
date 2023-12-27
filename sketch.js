@@ -1,3 +1,4 @@
+//  Exceeding the Entirety 2023 by Mika and Avi Milgrom 
 let Fira;
 let digitSize;
 function preload() {
@@ -71,7 +72,7 @@ function drawTime(index, PersonDate) {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  digitSize = 44  ;
+  digitSize = 26;
 }
 
 function draw() {
@@ -79,4 +80,8 @@ function draw() {
   drawTime(0, startDateAvi);
   drawTime(1, startDateMika);
   drawTime(2, startDateAnan);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
